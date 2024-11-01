@@ -1,0 +1,181 @@
+{
+  "settings": {
+    "iterations": 3000,
+    "phase": 3,
+    "showDamageMetrics": true,
+    "showThreatMetrics": true,
+    "language": "en",
+    "faction": "Alliance",
+    "filters": {
+      "oneHandedWeapons": true,
+      "twoHandedWeapons": true
+    }
+  },
+  "raidBuffs": {
+    "giftOfTheWild": "TristateEffectImproved",
+    "powerWordFortitude": "TristateEffectImproved",
+    "commandingShout": "TristateEffectRegular",
+    "strengthOfEarthTotem": "TristateEffectImproved",
+    "trueshotAura": true,
+    "leaderOfThePack": "TristateEffectImproved",
+    "windfuryTotem": "TristateEffectImproved",
+    "swiftRetribution": true,
+    "moonkinAura": "TristateEffectImproved",
+    "sanctifiedRetribution": true,
+    "shadowProtection": true,
+    "bloodlust": true,
+    "thorns": "TristateEffectImproved",
+    "devotionAura": "TristateEffectImproved",
+    "stoneskinTotem": "TristateEffectImproved",
+    "retributionAura": true
+  },
+  "debuffs": {
+    "judgementOfLight": true,
+    "faerieFire": "TristateEffectImproved",
+    "ebonPlaguebringer": true,
+    "earthAndMoon": true,
+    "heartOfTheCrusader": true,
+    "shadowMastery": true,
+    "bloodFrenzy": true,
+    "mangle": true,
+    "exposeArmor": true,
+    "vindication": true,
+    "frostFever": "TristateEffectImproved",
+    "infectedWounds": true,
+    "insectSwarm": true
+  },
+  "tanks": [
+    {
+      "type": "Player"
+    }
+  ],
+  "partyBuffs": {
+    "heroicPresence": true
+  },
+  "player": {
+    "name": "Player",
+    "race": "RaceNightElf",
+    "class": "ClassDruid",
+    "equipment": {
+      "items": [
+        {"id":31039,"enchant":2584,"gems":[32200,34220],"ilvl":146,"quality":"ItemQualityEpic"},
+        {"id":32362,"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":31048,"enchant":2986,"gems":[32200,32200],"ilvl":146,"quality":"ItemQualityEpic"},
+        {"id":34010,"enchant":368,"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":30905,"enchant":2661,"gems":[32200,32200,32200],"ilvl":151,"quality":"ItemQualityEpic"},
+        {"id":32324,"enchant":2649,"gems":[32200],"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":31034,"enchant":2613,"gems":[32200],"ilvl":146,"quality":"ItemQualityEpic"},
+        {"id":30106,"gems":[32200,32200],"ilvl":138,"quality":"ItemQualityEpic"},
+        {"id":31044,"enchant":3013,"gems":[32200],"ilvl":146,"quality":"ItemQualityEpic"},
+        {"id":32366,"enchant":2940,"gems":[32200,32200],"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":32526,"ilvl":151,"quality":"ItemQualityEpic"},
+        {"id":29301,"ilvl":152,"quality":"ItemQualityEpic"},
+        {"id":31859,"ilvl":100,"quality":"ItemQualityEpic"},
+        {"id":31858,"ilvl":100,"quality":"ItemQualityEpic"},
+        {"id":30883,"enchant":2673,"ilvl":141,"quality":"ItemQualityEpic"},
+        {},
+        {"id":23198,"ilvl":65,"quality":"ItemQualityRare"}
+      ]
+    },
+    "consumes": {
+      "battleElixir": "ElixirOfMastery",
+      "guardianElixir": "ElixirOfMajorDefense",
+      "weaponMain": "ImbueAdamantiteWeightStone",
+      "food": "FoodFishermansFeast",
+      "defaultPotion": "IronshieldPotion",
+      "prepopPotion": "HeroicPotion",
+      "defaultConjured": "ConjuredHealthstone",
+      "thermalSapper": true
+    },
+    "bonusStats": {
+      "stats": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,480,0,0,0,0,0,0,0,0,0,0,0],
+      "pseudoStats": [0,0,0,0,0,0]
+    },
+    "buffs": {
+      "blessingOfKings": true,
+      "blessingOfMight": "TristateEffectImproved",
+      "renewedHope": true
+    },
+    "feralTankDruid": {
+      "rotation": {
+        "maulRageThreshold": 25,
+        "maintainDemoralizingRoar": true,
+        "lacerateTime": 8
+      },
+      "options": {
+        "innervateTarget": {
+        },
+        "startingRage": 20
+      }
+    },
+    "talentsString": "-501232130322010353100303210511-2033",
+    "glyphs": {
+      "major1": 40896,
+      "major2": 40897,
+      "minor1": 43334,
+      "minor2": 43332,
+      "minor3": 43331
+    },
+    "profession1": "Alchemy",
+    "cooldowns": {
+      "hpPercentForDefensives": 0.35
+    },
+    "rotation": {
+      "type": "TypeAPL",
+      "prepullActions": [
+        {"action":{"castSpell":{"spellId":{"otherId":"OtherActionPotion"}}},"doAtValue":{"const":{"val":"-1s"}}}
+      ],
+      "priorityList": [
+        {"action":{"autocastOtherCooldowns":{}}},
+        {"action":{"condition":{"and":{"vals":[{"cmp":{"op":"OpEq","lhs":{"auraNumStacks":{"sourceUnit":{"type":"CurrentTarget"},"auraId":{"spellId":33745}}},"rhs":{"const":{"val":"5"}}}},{"cmp":{"op":"OpLe","lhs":{"dotRemainingTime":{"spellId":{"spellId":33745}}},"rhs":{"const":{"val":"1.5s"}}}}]}},"castSpell":{"spellId":{"spellId":33745}}}},
+        {"action":{"castSpell":{"spellId":{"spellId":33987}}}},
+        {"action":{"condition":{"and":{"vals":[{"gcdIsReady":{}},{"not":{"val":{"spellIsReady":{"spellId":{"spellId":33987}}}}},{"cmp":{"op":"OpLt","lhs":{"spellTimeToReady":{"spellId":{"spellId":33987}}},"rhs":{"const":{"val":"1.0s"}}}}]}},"wait":{"duration":{"spellTimeToReady":{"spellId":{"spellId":33987}}}}}},
+        {"action":{"castSpell":{"spellId":{"spellId":16857}}}},
+        {"action":{"condition":{"and":{"vals":[{"gcdIsReady":{}},{"not":{"val":{"spellIsReady":{"spellId":{"spellId":33987}}}}},{"cmp":{"op":"OpLt","lhs":{"spellTimeToReady":{"spellId":{"spellId":33987}}},"rhs":{"const":{"val":"1.5s"}}}}]}},"wait":{"duration":{"spellTimeToReady":{"spellId":{"spellId":33987}}}}}},
+        {"action":{"condition":{"or":{"vals":[{"cmp":{"op":"OpLt","lhs":{"auraNumStacks":{"sourceUnit":{"type":"CurrentTarget"},"auraId":{"spellId":33745}}},"rhs":{"const":{"val":"5"}}}},{"cmp":{"op":"OpLe","lhs":{"dotRemainingTime":{"spellId":{"spellId":33745}}},"rhs":{"const":{"val":"8s"}}}}]}},"castSpell":{"spellId":{"spellId":33745}}}},
+        {"action":{"condition":{"cmp":{"op":"OpGe","lhs":{"currentRage":{}},"rhs":{"const":{"val":"40"}}}},"castSpell":{"spellId":{"spellId":26997}}}},
+        {"action":{"condition":{"cmp":{"op":"OpGe","lhs":{"currentRage":{}},"rhs":{"const":{"val":"25"}}}},"castSpell":{"spellId":{"spellId":26996,"tag":1}}}},
+        {"action":{"condition":{"and":{"vals":[{"gcdIsReady":{}},{"not":{"val":{"spellIsReady":{"spellId":{"spellId":16857}}}}},{"cmp":{"op":"OpLt","lhs":{"spellTimeToReady":{"spellId":{"spellId":16857}}},"rhs":{"const":{"val":"1.5s"}}}}]}},"wait":{"duration":{"spellTimeToReady":{"spellId":{"spellId":16857}}}}}}
+      ]
+    },
+    "reactionTimeMs": 200,
+    "channelClipDelayMs": 200,
+    "inFrontOfTarget": true,
+    "healingModel": {
+      "hps": 3000,
+      "cadenceSeconds": 2.25,
+      "burstWindow": 6
+    },
+    "database": {
+    }
+  },
+  "encounter": {
+    "duration": 300,
+    "durationVariation": 5,
+    "executeProportion20": 0.2,
+    "executeProportion25": 0.25,
+    "executeProportion35": 0.35,
+    "targets": [
+      {
+        "level": 73,
+        "mobType": "MobTypeGiant",
+        "stats": [0,0,0,0,0,0,0,0,0,0,0,805,0,0,0,0,0,0,0,0,6300,0,0,0,76,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        "minBaseDamage": 31000,
+        "swingSpeed": 1.5,
+        "parryHaste": true
+      }
+    ]
+  },
+  "epWeightsStats": {
+    "stats": [2.3786,4.4974,7.3021,0,0,0,0,0,0,0,0,1,2.9282,1.5143,2.0983,1.584,2.6597,0,0,0,3.5665,0,1.8171,0,0,2.0196,0,0,0.4465,0,0,0,0,0,0.5187,0,0,0,0,0],
+    "pseudoStats": [0,0,0,0,0,0]
+  },
+  "epRatios": [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+  ]
+}

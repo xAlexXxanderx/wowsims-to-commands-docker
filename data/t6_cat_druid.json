@@ -1,0 +1,152 @@
+{
+  "settings": {
+    "iterations": 3000,
+    "phase": 3,
+    "showDamageMetrics": true,
+    "language": "en",
+    "faction": "Alliance",
+    "filters": {
+      "oneHandedWeapons": true,
+      "twoHandedWeapons": true
+    }
+  },
+  "raidBuffs": {
+    "giftOfTheWild": "TristateEffectImproved",
+    "strengthOfEarthTotem": "TristateEffectImproved",
+    "arcaneBrilliance": true,
+    "battleShout": "TristateEffectImproved",
+    "unleashedRage": true,
+    "leaderOfThePack": "TristateEffectRegular",
+    "icyTalons": true,
+    "windfuryTotem": "TristateEffectImproved",
+    "swiftRetribution": true,
+    "sanctifiedRetribution": true,
+    "manaSpringTotem": "TristateEffectRegular",
+    "bloodlust": true
+  },
+  "debuffs": {
+    "judgementOfWisdom": true,
+    "faerieFire": "TristateEffectImproved",
+    "heartOfTheCrusader": true,
+    "bloodFrenzy": true,
+    "giftOfArthas": true,
+    "mangle": true,
+    "exposeArmor": true,
+    "sunderArmor": true,
+    "curseOfWeakness": "TristateEffectRegular"
+  },
+  "partyBuffs": {
+    "heroicPresence": true
+  },
+  "player": {
+    "name": "Player",
+    "race": "RaceNightElf",
+    "class": "ClassDruid",
+    "equipment": {
+      "items": [
+        {"id":32235,"enchant":3003,"gems":[32409,35761],"ilvl":151,"quality":"ItemQualityEpic"},
+        {"id":32260,"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":29100,"enchant":2997,"gems":[32194,32194],"ilvl":120,"quality":"ItemQualityEpic"},
+        {"id":29994,"enchant":368,"ilvl":138,"quality":"ItemQualityEpic"},
+        {"id":31042,"enchant":2661,"gems":[32212,33140,32194],"ilvl":146,"quality":"ItemQualityEpic"},
+        {"id":32580,"enchant":2647,"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":29097,"enchant":2564,"ilvl":120,"quality":"ItemQualityEpic"},
+        {"id":30106,"gems":[32194,32212],"ilvl":138,"quality":"ItemQualityEpic"},
+        {"id":31044,"enchant":3012,"gems":[32194],"ilvl":146,"quality":"ItemQualityEpic"},
+        {"id":32366,"enchant":2658,"gems":[32194,32220],"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":29301,"ilvl":152,"quality":"ItemQualityEpic"},
+        {"id":32335,"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":28830,"ilvl":125,"quality":"ItemQualityEpic"},
+        {"id":30627,"ilvl":128,"quality":"ItemQualityEpic"},
+        {"id":32332,"enchant":2673,"ilvl":141,"quality":"ItemQualityEpic"},
+        {},
+        {"id":29390,"ilvl":110,"quality":"ItemQualityEpic"}
+      ]
+    },
+    "consumes": {
+      "flask": "FlaskOfRelentlessAssault",
+      "weaponMain": "ImbueAdamantiteWeightStone",
+      "food": "FoodGrilledMudfish",
+      "defaultPotion": "HastePotion",
+      "prepopPotion": "HastePotion",
+      "defaultConjured": "ConjuredFlameCap"
+    },
+    "bonusStats": {
+      "stats": [0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      "pseudoStats": [0,0,0,0,0,0]
+    },
+    "buffs": {
+      "blessingOfKings": true,
+      "blessingOfMight": "TristateEffectImproved"
+    },
+    "feralDruid": {
+      "rotation": {
+        "maintainFaerieFire": true,
+        "minCombosForRip": 5,
+        "useRake": true,
+        "useBite": true,
+        "biteTime": 4,
+        "minCombosForBite": 5,
+        "berserkBiteThresh": 25,
+        "berserkFfThresh": 15,
+        "ripLeeway": 3,
+        "minRoarOffset": 12,
+        "raidTargets": 30,
+        "maxFfDelay": 0.10000000149011612,
+        "prePopOoc": true
+      },
+      "options": {
+        "latencyMs": 100,
+        "assumeBleedActive": true
+      }
+    },
+    "talentsString": "-5502021323220100531100303105-20350001",
+    "glyphs": {
+      "major1": 40902,
+      "major2": 40901,
+      "minor1": 43674,
+      "minor2": 43335,
+      "minor3": 43331
+    },
+    "profession1": "Alchemy",
+    "cooldowns": {
+    },
+    "rotation": {
+    },
+    "reactionTimeMs": 200,
+    "channelClipDelayMs": 200,
+    "healingModel": {
+    },
+    "database": {
+    }
+  },
+  "encounter": {
+    "duration": 180,
+    "durationVariation": 5,
+    "executeProportion20": 0.2,
+    "executeProportion25": 0.25,
+    "executeProportion35": 0.35,
+    "targets": [
+      {
+        "level": 73,
+        "mobType": "MobTypeGiant",
+        "stats": [0,0,0,0,0,0,0,0,0,0,0,805,0,0,0,0,0,0,0,0,6300,0,0,0,76,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        "minBaseDamage": 65000,
+        "swingSpeed": 1.5,
+        "parryHaste": true
+      }
+    ]
+  },
+  "epWeightsStats": {
+    "stats": [2.4,2.39,0,0,0,0,0,0,0,0,0,1,2.51,2.23,1.83,2.08,2.44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+    "pseudoStats": [16.5,0,0,0,0,0]
+  },
+  "epRatios": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+  ]
+}

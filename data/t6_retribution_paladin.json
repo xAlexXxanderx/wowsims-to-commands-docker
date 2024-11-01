@@ -1,0 +1,217 @@
+{
+  "settings": {
+    "iterations": 3000,
+    "phase": 3,
+    "showDamageMetrics": true,
+    "language": "en",
+    "faction": "Alliance",
+    "filters": {
+      "oneHandedWeapons": true,
+      "twoHandedWeapons": true
+    }
+  },
+  "raidBuffs": {
+    "giftOfTheWild": "TristateEffectImproved",
+    "hornOfWinter": true,
+    "strengthOfEarthTotem": "TristateEffectImproved",
+    "arcaneBrilliance": true,
+    "divineSpirit": true,
+    "battleShout": "TristateEffectImproved",
+    "trueshotAura": true,
+    "rampage": true,
+    "icyTalons": true,
+    "windfuryTotem": "TristateEffectImproved",
+    "demonicPact": 200,
+    "demonicPactSp": 100,
+    "swiftRetribution": true,
+    "moonkinAura": "TristateEffectImproved",
+    "elementalOath": true,
+    "wrathOfAirTotem": true,
+    "sanctifiedRetribution": true,
+    "manaSpringTotem": "TristateEffectRegular",
+    "bloodlust": true
+  },
+  "debuffs": {
+    "judgementOfWisdom": true,
+    "judgementOfLight": true,
+    "misery": true,
+    "faerieFire": "TristateEffectImproved",
+    "curseOfElements": true,
+    "heartOfTheCrusader": true,
+    "shadowMastery": true,
+    "bloodFrenzy": true,
+    "mangle": true,
+    "exposeArmor": true,
+    "sunderArmor": true,
+    "curseOfWeakness": "TristateEffectRegular"
+  },
+  "partyBuffs": {
+  },
+  "player": {
+    "name": "Player",
+    "race": "RaceHuman",
+    "class": "ClassPaladin",
+    "equipment": {
+      "items": [
+        {"id":32235,"enchant":3003,"gems":[34220,32193],"ilvl":151,"quality":"ItemQualityEpic"},
+        {"id":32260,"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":30997,"enchant":2986,"gems":[32193,32193],"ilvl":146,"quality":"ItemQualityEpic"},
+        {"id":33122,"enchant":368,"gems":[32193],"ilvl":120,"quality":"ItemQualityEpic"},
+        {"id":30990,"enchant":2661,"gems":[32193,32193,32193],"ilvl":146,"quality":"ItemQualityEpic"},
+        {"id":30057,"enchant":2647,"gems":[32211],"ilvl":128,"quality":"ItemQualityEpic"},
+        {"id":30982,"enchant":684,"gems":[32193],"ilvl":146,"quality":"ItemQualityEpic"},
+        {"id":30106,"gems":[32193,30546],"ilvl":138,"quality":"ItemQualityEpic"},
+        {"id":30993,"enchant":3012,"gems":[32193],"ilvl":146,"quality":"ItemQualityEpic"},
+        {"id":32345,"enchant":2658,"gems":[32193,32193],"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":32335,"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":29301,"ilvl":152,"quality":"ItemQualityEpic"},
+        {"id":29383,"ilvl":110,"quality":"ItemQualityEpic"},
+        {"id":28830,"ilvl":125,"quality":"ItemQualityEpic"},
+        {"id":32332,"enchant":2673,"ilvl":141,"quality":"ItemQualityEpic"},
+        {},
+        {"id":27484,"ilvl":115,"quality":"ItemQualityRare"}
+      ]
+    },
+    "consumes": {
+      "flask": "FlaskOfRelentlessAssault",
+      "weaponMain": "ImbueAdamantiteSharpeningStone",
+      "food": "FoodRoastedClefthoof",
+      "defaultPotion": "HastePotion",
+      "prepopPotion": "HastePotion",
+      "defaultConjured": "ConjuredFlameCap"
+    },
+    "bonusStats": {
+      "stats": [0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      "pseudoStats": [0,0,0,0,0,0]
+    },
+    "buffs": {
+      "blessingOfKings": true,
+      "blessingOfMight": "TristateEffectImproved",
+      "judgementsOfTheWise": true
+    },
+    "retributionPaladin": {
+      "rotation": {
+        "exoSlack": 500,
+        "consSlack": 500,
+        "holyWrathThreshold": 4,
+        "sovTargets": 1,
+        "customRotation": {
+          "spells": [
+            {
+              "spell": 3
+            },
+            {
+              "spell": 1
+            },
+            {
+              "spell": 6
+            },
+            {
+              "spell": 2
+            },
+            {
+              "spell": 4
+            },
+            {
+              "spell": 7
+            },
+            {
+              "spell": 5
+            }
+          ]
+        },
+        "customCastSequence": {
+          "spells": [
+            {
+              "spell": 1
+            },
+            {
+              "spell": 6
+            },
+            {
+              "spell": 2
+            },
+            {
+              "spell": 4
+            },
+            {
+              "spell": 6
+            },
+            {
+              "spell": 7
+            },
+            {
+              "spell": 1
+            },
+            {
+              "spell": 6
+            },
+            {
+              "spell": 2
+            },
+            {
+              "spell": 4
+            },
+            {
+              "spell": 6
+            }
+          ]
+        },
+        "type": "Standard",
+        "avoidClippingConsecration": true
+      },
+      "options": {
+        "aura": "RetributionAura"
+      }
+    },
+    "talentsString": "05-05-05232051203330302133201331",
+    "glyphs": {
+      "major1": 43869,
+      "major2": 41092,
+      "major3": 204385,
+      "minor1": 43368,
+      "minor2": 43367,
+      "minor3": 43365
+    },
+    "profession2": "Alchemy",
+    "cooldowns": {
+    },
+    "rotation": {
+    },
+    "reactionTimeMs": 200,
+    "channelClipDelayMs": 200,
+    "healingModel": {
+    },
+    "database": {
+    }
+  },
+  "encounter": {
+    "duration": 180,
+    "durationVariation": 5,
+    "executeProportion20": 0.2,
+    "executeProportion25": 0.25,
+    "executeProportion35": 0.35,
+    "targets": [
+      {
+        "level": 73,
+        "mobType": "MobTypeGiant",
+        "stats": [0,0,0,0,0,0,0,0,0,0,0,805,0,0,0,0,0,0,0,0,6300,0,0,0,76,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        "minBaseDamage": 65000,
+        "swingSpeed": 1.5,
+        "parryHaste": true
+      }
+    ]
+  },
+  "epWeightsStats": {
+    "stats": [2.53,1.13,0,0.15,0,0.32,0.05,0.41,0.01,0.12,0,1,1.96,1.16,1.44,0.76,1.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+    "pseudoStats": [7.33,0,0,0,0,0]
+  },
+  "epRatios": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+  ]
+}

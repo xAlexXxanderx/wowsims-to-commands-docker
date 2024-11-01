@@ -1,0 +1,154 @@
+{
+  "settings": {
+    "iterations": 3000,
+    "phase": 3,
+    "showDamageMetrics": true,
+    "language": "en",
+    "faction": "Alliance",
+    "filters": {
+      "oneHandedWeapons": true,
+      "twoHandedWeapons": true
+    }
+  },
+  "raidBuffs": {
+    "giftOfTheWild": "TristateEffectImproved",
+    "powerWordFortitude": "TristateEffectImproved",
+    "strengthOfEarthTotem": "TristateEffectImproved",
+    "arcaneBrilliance": true,
+    "divineSpirit": true,
+    "trueshotAura": true,
+    "leaderOfThePack": "TristateEffectImproved",
+    "icyTalons": true,
+    "windfuryTotem": "TristateEffectImproved",
+    "demonicPact": 200,
+    "demonicPactSp": 100,
+    "moonkinAura": "TristateEffectImproved",
+    "wrathOfAirTotem": true,
+    "sanctifiedRetribution": true,
+    "bloodlust": true
+  },
+  "debuffs": {
+    "judgementOfWisdom": true,
+    "faerieFire": "TristateEffectImproved",
+    "ebonPlaguebringer": true,
+    "earthAndMoon": true,
+    "heartOfTheCrusader": true,
+    "shadowMastery": true,
+    "bloodFrenzy": true,
+    "sunderArmor": true
+  },
+  "partyBuffs": {
+    "heroicPresence": true
+  },
+  "player": {
+    "name": "Player",
+    "race": "RaceNightElf",
+    "class": "ClassDruid",
+    "equipment": {
+      "items": [
+        {"id":31037,"enchant":3002,"gems":[32836,25897],"ilvl":146,"quality":"ItemQualityEpic"},
+        {"id":32589,"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":31047,"enchant":2982,"gems":[32836,32836],"ilvl":146,"quality":"ItemQualityEpic"},
+        {"id":32337,"enchant":2621,"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":31041,"enchant":1144,"gems":[32219,32836,32836],"ilvl":146,"quality":"ItemQualityEpic"},
+        {"id":30868,"enchant":2650,"gems":[32836],"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":31032,"enchant":2937,"gems":[32836],"ilvl":146,"quality":"ItemQualityEpic"},
+        {"id":30888,"gems":[32219,30600],"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":30912,"enchant":2748,"gems":[32836,32836,32836],"ilvl":151,"quality":"ItemQualityEpic"},
+        {"id":32239,"enchant":2940,"gems":[32219,30572],"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":30110,"ilvl":138,"quality":"ItemQualityEpic"},
+        {"id":29309,"ilvl":152,"quality":"ItemQualityEpic"},
+        {"id":32496,"ilvl":151,"quality":"ItemQualityEpic"},
+        {"id":32486,"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":32500,"enchant":2669,"ilvl":151,"quality":"ItemQualityEpic"},
+        {"id":30911,"ilvl":151,"quality":"ItemQualityEpic"},
+        {"id":32387,"ilvl":115,"quality":"ItemQualityRare"}
+      ]
+    },
+    "consumes": {
+      "flask": "FlaskOfSupremePower",
+      "weaponMain": "ImbueSuperiorWizardOil",
+      "food": "FoodBlackenedBasilisk",
+      "defaultPotion": "SuperManaPotion",
+      "defaultConjured": "ConjuredDarkRune"
+    },
+    "bonusStats": {
+      "stats": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      "pseudoStats": [0,0,0,0,0,0]
+    },
+    "buffs": {
+      "blessingOfKings": true,
+      "blessingOfWisdom": "TristateEffectImproved",
+      "blessingOfMight": "TristateEffectImproved",
+      "vampiricTouch": true
+    },
+    "balanceDruid": {
+      "rotation": {
+        "type": "Manual",
+        "isUsage": "OptimizeIs",
+        "wrathUsage": "RegularWrath",
+        "useStarfire": true,
+        "useSmartCooldowns": true,
+        "maintainFaerieFire": true,
+        "playerLatency": 200,
+        "eclipseShuffling": true,
+        "mfExtension": "DontExtend"
+      },
+      "options": {
+        "innervateTarget": {
+          "type": "Player"
+        }
+      }
+    },
+    "talentsString": "053--230033312031500531050313051",
+    "glyphs": {
+      "major1": 40906,
+      "major2": 45602,
+      "minor1": 43674,
+      "minor2": 43331,
+      "minor3": 43335
+    },
+    "profession1": "Alchemy",
+    "profession2": "Enchanting",
+    "cooldowns": {
+    },
+    "rotation": {
+    },
+    "reactionTimeMs": 200,
+    "channelClipDelayMs": 200,
+    "distanceFromTarget": 18,
+    "healingModel": {
+    },
+    "database": {
+    }
+  },
+  "encounter": {
+    "duration": 180,
+    "durationVariation": 5,
+    "executeProportion20": 0.2,
+    "executeProportion25": 0.25,
+    "executeProportion35": 0.35,
+    "targets": [
+      {
+        "level": 73,
+        "mobType": "MobTypeGiant",
+        "stats": [0,0,0,0,0,0,0,0,0,0,0,805,0,0,0,0,0,0,0,0,6300,0,0,0,76,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        "minBaseDamage": 65000,
+        "swingSpeed": 1.5,
+        "parryHaste": true
+      }
+    ]
+  },
+  "epWeightsStats": {
+    "stats": [0,0,0,0.43,0.34,1,0,0,0.82,0.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+    "pseudoStats": [0,0,0,0,0,0]
+  },
+  "epRatios": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+  ]
+}

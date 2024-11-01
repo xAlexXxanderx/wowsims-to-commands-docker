@@ -1,0 +1,176 @@
+{
+  "settings": {
+    "iterations": 3000,
+    "phase": 3,
+    "showDamageMetrics": true,
+    "language": "en",
+    "faction": "Alliance",
+    "filters": {
+      "oneHandedWeapons": true,
+      "twoHandedWeapons": true
+    }
+  },
+  "raidBuffs": {
+    "giftOfTheWild": "TristateEffectImproved",
+    "powerWordFortitude": "TristateEffectImproved",
+    "strengthOfEarthTotem": "TristateEffectImproved",
+    "arcaneBrilliance": true,
+    "battleShout": "TristateEffectImproved",
+    "unleashedRage": true,
+    "leaderOfThePack": "TristateEffectImproved",
+    "windfuryTotem": "TristateEffectImproved",
+    "moonkinAura": "TristateEffectImproved",
+    "sanctifiedRetribution": true,
+    "bloodlust": true
+  },
+  "debuffs": {
+    "judgementOfWisdom": true,
+    "faerieFire": "TristateEffectImproved",
+    "curseOfElements": true,
+    "heartOfTheCrusader": true,
+    "savageCombat": true,
+    "trauma": true,
+    "sunderArmor": true,
+    "huntersMark": 1
+  },
+  "partyBuffs": {
+    "heroicPresence": true
+  },
+  "player": {
+    "name": "Player",
+    "race": "RaceOrc",
+    "class": "ClassHunter",
+    "equipment": {
+      "items": [
+        {"id":31003,"enchant":3003,"gems":[32194,32409],"ilvl":146,"quality":"ItemQualityEpic"},
+        {"id":30017,"ilvl":138,"quality":"ItemQualityEpic"},
+        {"id":31006,"enchant":2986,"gems":[32194,32194],"ilvl":146,"quality":"ItemQualityEpic"},
+        {"id":29994,"enchant":368,"ilvl":138,"quality":"ItemQualityEpic"},
+        {"id":31004,"enchant":2661,"gems":[32194,32220,32220],"ilvl":146,"quality":"ItemQualityEpic"},
+        {"id":30864,"enchant":1593,"gems":[32212],"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":31001,"enchant":2564,"gems":[32194],"ilvl":146,"quality":"ItemQualityEpic"},
+        {"id":32346,"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":30900,"enchant":3012,"gems":[32194,32194,32194],"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":30104,"enchant":2658,"gems":[32212,32194],"ilvl":138,"quality":"ItemQualityEpic"},
+        {"id":29301,"ilvl":152,"quality":"ItemQualityEpic"},
+        {"id":32266,"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":30627,"ilvl":128,"quality":"ItemQualityEpic"},
+        {"id":29383,"ilvl":110,"quality":"ItemQualityEpic"},
+        {"id":32248,"enchant":2670,"ilvl":141,"quality":"ItemQualityEpic"},
+        {},
+        {"id":30906,"enchant":2724,"ilvl":151,"quality":"ItemQualityEpic"}
+      ]
+    },
+    "consumes": {
+      "battleElixir": "ElixirOfMajorAgility",
+      "guardianElixir": "ElixirOfDraenicWisdom",
+      "weaponMain": "ImbueAdamantiteWeightStone",
+      "food": "FoodGrilledMudfish",
+      "petFood": "PetFoodKiblersBits",
+      "defaultPotion": "HastePotion",
+      "prepopPotion": "HastePotion",
+      "defaultConjured": "ConjuredFlameCap"
+    },
+    "bonusStats": {
+      "stats": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      "pseudoStats": [0,0,0,0,0,0]
+    },
+    "buffs": {
+      "blessingOfKings": true,
+      "blessingOfWisdom": "TristateEffectImproved",
+      "blessingOfMight": "TristateEffectImproved",
+      "vampiricTouch": true
+    },
+    "hunter": {
+      "rotation": {
+      },
+      "options": {
+        "ammo": "AdamantiteStinger",
+        "petType": "Wolf",
+        "petTalents": {
+          "cobraReflexes": 2,
+          "dive": true,
+          "boarsSpeed": true,
+          "spikedCollar": 2,
+          "cullingTheHerd": 3,
+          "spidersBite": 3,
+          "callOfTheWild": true
+        },
+        "petUptime": 1,
+        "sniperTrainingUptime": 0.9,
+        "timeToTrapWeaveMs": 2000,
+        "useHuntersMark": true
+      }
+    },
+    "talentsString": "-005302-5000032500033330531135301011",
+    "glyphs": {
+      "major1": 45731,
+      "major2": 45733,
+      "major3": 45732,
+      "minor1": 43351,
+      "minor2": 43338,
+      "minor3": 43350
+    },
+    "profession1": "Leatherworking",
+    "profession2": "Alchemy",
+    "cooldowns": {
+    },
+    "rotation": {
+      "type": "TypeSimple",
+      "simple": {
+        "specRotationJson": "{\"type\":\"SingleTarget\",\"sting\":\"SerpentSting\",\"trapWeave\":true,\"viperStopManaPercent\":0.25,\"allowExplosiveShotDownrank\":true}"
+      },
+      "prepullActions": [
+        {"action":{"castSpell":{"spellId":{"otherId":"OtherActionPotion"}}},"doAtValue":{"const":{"val":"-1s"}}}
+      ],
+      "priorityList": [
+        {"action":{"condition":{"cmp":{"op":"OpGt","lhs":{"currentTime":{}},"rhs":{"const":{"val":"10s"}}}},"autocastOtherCooldowns":{}}},
+        {"action":{"condition":{"and":{"vals":[{"not":{"val":{"auraIsActive":{"auraId":{"spellId":34074}}}}},{"cmp":{"op":"OpLt","lhs":{"currentManaPercent":{}},"rhs":{"const":{"val":"10%"}}}}]}},"castSpell":{"spellId":{"spellId":34074}}}},
+        {"action":{"condition":{"and":{"vals":[{"not":{"val":{"auraIsActive":{"auraId":{"spellId":27044}}}}},{"cmp":{"op":"OpGt","lhs":{"currentManaPercent":{}},"rhs":{"const":{"val":"30%"}}}}]}},"castSpell":{"spellId":{"spellId":27044}}}},
+        {"action":{"castSpell":{"spellId":{"spellId":34490}}}},
+        {"action":{"condition":{"not":{"val":{"dotIsActive":{"spellId":{"spellId":27016}}}}},"castSpell":{"spellId":{"spellId":27016}}}},
+        {"hide":true,"action":{"condition":{"not":{"val":{"dotIsActive":{"spellId":{"spellId":27025}}}}},"castSpell":{"spellId":{"spellId":27025,"tag":1}}}},
+        {"action":{"castSpell":{"spellId":{"spellId":53209}}}},
+        {"action":{"castSpell":{"spellId":{"spellId":27065}}}},
+        {"action":{"castSpell":{"spellId":{"spellId":27021}}}},
+        {"hide":true,"action":{"castSpell":{"spellId":{"spellId":27019}}}},
+        {"action":{"castSpell":{"spellId":{"spellId":34120}}}}
+      ]
+    },
+    "reactionTimeMs": 200,
+    "channelClipDelayMs": 200,
+    "healingModel": {
+    },
+    "database": {
+    }
+  },
+  "encounter": {
+    "duration": 180,
+    "durationVariation": 5,
+    "executeProportion20": 0.2,
+    "executeProportion25": 0.25,
+    "executeProportion35": 0.35,
+    "targets": [
+      {
+        "level": 73,
+        "mobType": "MobTypeGiant",
+        "stats": [0,0,0,0,0,0,0,0,0,0,0,805,0,0,0,0,0,0,0,0,6300,0,0,0,76,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        "minBaseDamage": 65000,
+        "swingSpeed": 1.5,
+        "parryHaste": true
+      }
+    ]
+  },
+  "epWeightsStats": {
+    "stats": [0,2.65,0.5,1.1,0,0,0,0,0,0,0,0,2,1.5,1.39,1.32,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+    "pseudoStats": [0,0,6.32,0,0,0]
+  },
+  "epRatios": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+  ]
+}

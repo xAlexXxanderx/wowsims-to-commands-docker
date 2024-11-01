@@ -1,0 +1,146 @@
+{
+  "settings": {
+    "iterations": 3000,
+    "phase": 3,
+    "showDamageMetrics": true,
+    "language": "en",
+    "faction": "Alliance",
+    "filters": {
+      "oneHandedWeapons": true,
+      "twoHandedWeapons": true
+    }
+  },
+  "raidBuffs": {
+    "giftOfTheWild": "TristateEffectImproved",
+    "arcaneBrilliance": true,
+    "divineSpirit": true,
+    "demonicPact": 200,
+    "demonicPactSp": 100,
+    "moonkinAura": "TristateEffectImproved",
+    "wrathOfAirTotem": true,
+    "sanctifiedRetribution": true
+  },
+  "debuffs": {
+    "judgementOfWisdom": true,
+    "misery": true,
+    "faerieFire": "TristateEffectImproved",
+    "curseOfElements": true,
+    "heartOfTheCrusader": true,
+    "shadowMastery": true
+  },
+  "partyBuffs": {
+    "heroicPresence": true
+  },
+  "player": {
+    "name": "Player",
+    "race": "RaceOrc",
+    "class": "ClassShaman",
+    "equipment": {
+      "items": [
+        {"id":32525,"enchant":3002,"gems":[34220,32216],"ilvl":151,"quality":"ItemQualityEpic"},
+        {"id":32349,"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":31023,"enchant":2982,"gems":[32216,32218],"ilvl":146,"quality":"ItemQualityEpic"},
+        {"id":32524,"enchant":2621,"ilvl":151,"quality":"ItemQualityEpic"},
+        {"id":31017,"enchant":2661,"gems":[32195,32195,32195],"ilvl":146,"quality":"ItemQualityEpic"},
+        {"id":32584,"enchant":2650,"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":31008,"enchant":2937,"gems":[32195],"ilvl":146,"quality":"ItemQualityEpic"},
+        {"id":30888,"gems":[32195,32195],"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":31020,"enchant":2748,"gems":[32195],"ilvl":146,"quality":"ItemQualityEpic"},
+        {"id":32242,"enchant":2658,"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":32527,"enchant":2928,"ilvl":151,"quality":"ItemQualityEpic"},
+        {"id":29305,"enchant":2928,"ilvl":152,"quality":"ItemQualityEpic"},
+        {"id":30626,"ilvl":128,"quality":"ItemQualityEpic"},
+        {"id":29370,"ilvl":110,"quality":"ItemQualityEpic"},
+        {"id":32374,"enchant":2669,"ilvl":151,"quality":"ItemQualityEpic"},
+        {},
+        {"id":28248,"ilvl":115,"quality":"ItemQualityRare"}
+      ]
+    },
+    "consumes": {
+      "flask": "FlaskOfBlindingLight",
+      "food": "FoodBlackenedBasilisk",
+      "defaultPotion": "SuperManaPotion",
+      "prepopPotion": "HastePotion",
+      "defaultConjured": "ConjuredDarkRune"
+    },
+    "bonusStats": {
+      "stats": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      "pseudoStats": [0,0,0,0,0,0]
+    },
+    "buffs": {
+      "blessingOfKings": true,
+      "blessingOfWisdom": "TristateEffectImproved",
+      "vampiricTouch": true
+    },
+    "elementalShaman": {
+      "rotation": {
+        "type": "Manual",
+        "inThunderstormRange": true,
+        "fnMinManaPer": 66,
+        "useChainLightning": true,
+        "clMinManaPer": 33,
+        "useThunderstorm": true
+      },
+      "options": {
+        "shield": "WaterShield",
+        "bloodlust": true,
+        "totems": {
+          "earth": "StrengthOfEarthTotem",
+          "air": "WrathOfAirTotem",
+          "fire": "TotemOfWrath",
+          "water": "ManaSpringTotem",
+          "useFireElemental": true
+        }
+      }
+    },
+    "talentsString": "5530001503113351302301051-00505",
+    "glyphs": {
+      "major1": 41532,
+      "major2": 45776,
+      "minor1": 44923,
+      "minor2": 43386,
+      "minor3": 43725
+    },
+    "profession1": "Alchemy",
+    "profession2": "Enchanting",
+    "cooldowns": {
+    },
+    "rotation": {
+    },
+    "reactionTimeMs": 200,
+    "channelClipDelayMs": 200,
+    "healingModel": {
+    },
+    "database": {
+    }
+  },
+  "encounter": {
+    "duration": 180,
+    "durationVariation": 5,
+    "executeProportion20": 0.2,
+    "executeProportion25": 0.25,
+    "executeProportion35": 0.35,
+    "targets": [
+      {
+        "level": 73,
+        "mobType": "MobTypeGiant",
+        "stats": [0,0,0,0,0,0,0,0,0,0,0,805,0,0,0,0,0,0,0,0,6300,0,0,0,76,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        "minBaseDamage": 65000,
+        "swingSpeed": 1.5,
+        "parryHaste": true
+      }
+    ]
+  },
+  "epWeightsStats": {
+    "stats": [0,0,0,0.22,0,1,0.08,0,0.67,1.29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+    "pseudoStats": [0,0,0,0,0,0]
+  },
+  "epRatios": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+  ]
+}

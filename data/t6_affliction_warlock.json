@@ -1,0 +1,161 @@
+{
+  "settings": {
+    "iterations": 3000,
+    "phase": 3,
+    "showDamageMetrics": true,
+    "language": "en",
+    "faction": "Alliance",
+    "filters": {
+      "oneHandedWeapons": true,
+      "twoHandedWeapons": true
+    }
+  },
+  "raidBuffs": {
+    "giftOfTheWild": "TristateEffectImproved",
+    "powerWordFortitude": "TristateEffectImproved",
+    "strengthOfEarthTotem": "TristateEffectImproved",
+    "arcaneBrilliance": true,
+    "divineSpirit": true,
+    "trueshotAura": true,
+    "leaderOfThePack": "TristateEffectImproved",
+    "icyTalons": true,
+    "windfuryTotem": "TristateEffectImproved",
+    "demonicPact": 200,
+    "demonicPactSp": 100,
+    "moonkinAura": "TristateEffectImproved",
+    "wrathOfAirTotem": true,
+    "sanctifiedRetribution": true,
+    "bloodlust": true
+  },
+  "debuffs": {
+    "judgementOfWisdom": true,
+    "faerieFire": "TristateEffectImproved",
+    "ebonPlaguebringer": true,
+    "earthAndMoon": true,
+    "heartOfTheCrusader": true,
+    "improvedScorch": true,
+    "bloodFrenzy": true,
+    "sunderArmor": true
+  },
+  "partyBuffs": {
+    "heroicPresence": true
+  },
+  "player": {
+    "name": "Player",
+    "race": "RaceOrc",
+    "class": "ClassWarlock",
+    "equipment": {
+      "items": [
+        {"id":31051,"enchant":3002,"gems":[34220,32218],"ilvl":146,"quality":"ItemQualityEpic"},
+        {"id":32589,"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":31054,"enchant":2982,"gems":[30572,32218],"ilvl":146,"quality":"ItemQualityEpic"},
+        {"id":32524,"enchant":2621,"ilvl":151,"quality":"ItemQualityEpic"},
+        {"id":31052,"enchant":1144,"gems":[32195,32195,32195],"ilvl":146,"quality":"ItemQualityEpic"},
+        {"id":30870,"enchant":2650,"gems":[32195],"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":31050,"enchant":2937,"gems":[32195],"ilvl":146,"quality":"ItemQualityEpic"},
+        {"id":30888,"gems":[32218,30600],"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":30916,"enchant":2748,"gems":[32195,32195,32195],"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":32239,"enchant":2658,"gems":[32195,32195],"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":32527,"enchant":2928,"ilvl":151,"quality":"ItemQualityEpic"},
+        {"id":32527,"enchant":2928,"ilvl":151,"quality":"ItemQualityEpic"},
+        {"id":29370,"ilvl":110,"quality":"ItemQualityEpic"},
+        {"id":32483,"ilvl":151,"quality":"ItemQualityEpic"},
+        {"id":32374,"enchant":2672,"ilvl":151,"quality":"ItemQualityEpic"},
+        {},
+        {"id":29982,"ilvl":134,"quality":"ItemQualityEpic"}
+      ]
+    },
+    "consumes": {
+      "flask": "FlaskOfPureDeath",
+      "weaponMain": "ImbueSpellStone",
+      "food": "FoodBlackenedBasilisk",
+      "petFood": "PetFoodKiblersBits",
+      "defaultPotion": "HastePotion",
+      "prepopPotion": "HastePotion",
+      "defaultConjured": "ConjuredFlameCap"
+    },
+    "bonusStats": {
+      "stats": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      "pseudoStats": [0,0,0,0,0,0]
+    },
+    "buffs": {
+      "blessingOfKings": true,
+      "blessingOfWisdom": "TristateEffectImproved",
+      "blessingOfMight": "TristateEffectImproved",
+      "vampiricTouch": true
+    },
+    "warlock": {
+      "rotation": {
+        "preset": "Automatic",
+        "curse": "Agony",
+        "primarySpell": "ShadowBolt",
+        "secondaryDot": "UnstableAffliction",
+        "corruption": true,
+        "detonateSeed": true,
+        "specSpell": "Haunt",
+        "useInfernal": true
+      },
+      "options": {
+        "armor": "FelArmor",
+        "summon": "Felhunter"
+      }
+    },
+    "talentsString": "2350022001023510253500331151--15",
+    "glyphs": {
+      "major1": 50077,
+      "major2": 45785,
+      "minor1": 43394,
+      "minor2": 43390,
+      "minor3": 43393
+    },
+    "profession1": "Alchemy",
+    "profession2": "Enchanting",
+    "cooldowns": {
+      "cooldowns": [
+        {
+          "id": {
+            "spellId": 33697
+          }
+        }
+      ]
+    },
+    "rotation": {
+    },
+    "reactionTimeMs": 200,
+    "channelClipDelayMs": 200,
+    "distanceFromTarget": 25,
+    "healingModel": {
+    },
+    "database": {
+    }
+  },
+  "encounter": {
+    "duration": 180,
+    "durationVariation": 5,
+    "executeProportion20": 0.2,
+    "executeProportion25": 0.25,
+    "executeProportion35": 0.35,
+    "targets": [
+      {
+        "level": 73,
+        "mobType": "MobTypeGiant",
+        "stats": [0,0,0,0,0,0,0,0,0,0,0,805,0,0,0,0,0,0,0,0,6300,0,0,0,76,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        "minBaseDamage": 65000,
+        "swingSpeed": 1.5,
+        "parryHaste": true
+      }
+    ]
+  },
+  "epWeightsStats": {
+    "stats": [0,0,0.01,0.18,0.54,1,0,0.93,0.53,0.81,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+    "pseudoStats": [0,0,0,0,0,0]
+  },
+  "epRatios": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+  ]
+}

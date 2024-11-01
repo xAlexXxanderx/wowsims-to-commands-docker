@@ -1,0 +1,149 @@
+{
+  "settings": {
+    "iterations": 3000,
+    "phase": 3,
+    "showDamageMetrics": true,
+    "language": "en",
+    "faction": "Alliance",
+    "filters": {
+      "oneHandedWeapons": true,
+      "twoHandedWeapons": true
+    }
+  },
+  "raidBuffs": {
+    "giftOfTheWild": "TristateEffectImproved",
+    "strengthOfEarthTotem": "TristateEffectImproved",
+    "unleashedRage": true,
+    "abominationsMight": true,
+    "leaderOfThePack": "TristateEffectRegular",
+    "icyTalons": true,
+    "windfuryTotem": "TristateEffectImproved",
+    "swiftRetribution": true,
+    "sanctifiedRetribution": true,
+    "bloodlust": true,
+    "devotionAura": "TristateEffectImproved",
+    "stoneskinTotem": "TristateEffectImproved"
+  },
+  "debuffs": {
+    "faerieFire": "TristateEffectImproved",
+    "heartOfTheCrusader": true,
+    "bloodFrenzy": true,
+    "mangle": true,
+    "sunderArmor": true,
+    "curseOfWeakness": "TristateEffectRegular"
+  },
+  "partyBuffs": {
+    "heroicPresence": true
+  },
+  "player": {
+    "name": "Player",
+    "race": "RaceOrc",
+    "class": "ClassWarrior",
+    "equipment": {
+      "items": [
+        {"id":30972,"enchant":3096,"gems":[34220,32217],"ilvl":146,"quality":"ItemQualityEpic"},
+        {"id":32260,"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":30979,"enchant":2997,"gems":[32217,32226],"ilvl":146,"quality":"ItemQualityEpic"},
+        {"id":33122,"enchant":368,"gems":[32193],"ilvl":120,"quality":"ItemQualityEpic"},
+        {"id":30975,"enchant":2661,"gems":[32217,32217,32217],"ilvl":146,"quality":"ItemQualityEpic"},
+        {"id":30861,"enchant":2647,"gems":[32217],"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":12631,"enchant":684,"ilvl":58,"quality":"ItemQualityRare"},
+        {"id":30032,"gems":[32226,32217],"ilvl":128,"quality":"ItemQualityEpic"},
+        {"id":32341,"enchant":3012,"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":32345,"enchant":2658,"gems":[32217,32217],"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":32335,"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":32497,"ilvl":151,"quality":"ItemQualityEpic"},
+        {"id":30627,"ilvl":128,"quality":"ItemQualityEpic"},
+        {"id":28830,"ilvl":125,"quality":"ItemQualityEpic"},
+        {"id":32348,"enchant":2673,"ilvl":141,"quality":"ItemQualityEpic"},
+        {},
+        {"id":30724,"gems":[32217,32217],"ilvl":120,"quality":"ItemQualityEpic"}
+      ]
+    },
+    "consumes": {
+      "flask": "FlaskOfRelentlessAssault",
+      "weaponMain": "ImbueAdamantiteSharpeningStone",
+      "food": "FoodRoastedClefthoof",
+      "defaultPotion": "HastePotion",
+      "prepopPotion": "HastePotion",
+      "defaultConjured": "ConjuredFlameCap"
+    },
+    "bonusStats": {
+      "stats": [0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      "pseudoStats": [0,0,0,0,0,0]
+    },
+    "buffs": {
+      "blessingOfKings": true,
+      "blessingOfMight": "TristateEffectImproved"
+    },
+    "warrior": {
+      "rotation": {
+        "useRend": true,
+        "useMs": true,
+        "mainGcd": "Bloodthirst",
+        "hsRageThreshold": 60,
+        "rendRageThresholdBelow": 100,
+        "slamRageThreshold": 25,
+        "useHsDuringExecute": true,
+        "useBtDuringExecute": true,
+        "spamExecute": true,
+        "useWwDuringExecute": true,
+        "useSlamOverExecute": true,
+        "stanceOption": "BattleStance"
+      },
+      "options": {
+        "startingRage": 20,
+        "useRecklessness": true,
+        "useShatteringThrow": true,
+        "shout": "WarriorShoutCommanding"
+      }
+    },
+    "talentsString": "3022032123335100200012211231251-305",
+    "glyphs": {
+      "major2": 43423,
+      "major3": 43416,
+      "minor1": 49084,
+      "minor3": 43397
+    },
+    "profession1": "Alchemy",
+    "cooldowns": {
+    },
+    "rotation": {
+    },
+    "reactionTimeMs": 200,
+    "channelClipDelayMs": 200,
+    "healingModel": {
+    },
+    "database": {
+    }
+  },
+  "encounter": {
+    "duration": 180,
+    "durationVariation": 5,
+    "executeProportion20": 0.2,
+    "executeProportion25": 0.25,
+    "executeProportion35": 0.35,
+    "targets": [
+      {
+        "level": 73,
+        "mobType": "MobTypeGiant",
+        "stats": [0,0,0,0,0,0,0,0,0,0,0,805,0,0,0,0,0,0,0,0,6300,0,0,0,76,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        "minBaseDamage": 65000,
+        "swingSpeed": 1.5,
+        "parryHaste": true
+      }
+    ]
+  },
+  "epWeightsStats": {
+    "stats": [2.72,1.82,0,0,0,0,0,0,0,0,0,1,0.79,2.12,1.72,2.17,2.55,0,0,0,0.03,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+    "pseudoStats": [6.29,3.58,0,0,0,0]
+  },
+  "epRatios": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "settings": {
+    "iterations": 3000,
+    "phase": 3,
+    "showDamageMetrics": true,
+    "language": "en",
+    "faction": "Alliance",
+    "filters": {
+      "oneHandedWeapons": true,
+      "twoHandedWeapons": true
+    }
+  },
+  "raidBuffs": {
+    "giftOfTheWild": "TristateEffectImproved",
+    "strengthOfEarthTotem": "TristateEffectImproved",
+    "arcaneBrilliance": true,
+    "divineSpirit": true,
+    "battleShout": "TristateEffectImproved",
+    "unleashedRage": true,
+    "leaderOfThePack": "TristateEffectImproved",
+    "windfuryTotem": "TristateEffectImproved",
+    "demonicPact": 200,
+    "demonicPactSp": 100,
+    "moonkinAura": "TristateEffectImproved",
+    "wrathOfAirTotem": true,
+    "sanctifiedRetribution": true,
+    "bloodlust": true
+  },
+  "debuffs": {
+    "judgementOfWisdom": true,
+    "misery": true,
+    "faerieFire": "TristateEffectImproved",
+    "curseOfElements": true,
+    "heartOfTheCrusader": true,
+    "shadowMastery": true,
+    "bloodFrenzy": true,
+    "sunderArmor": true,
+    "curseOfWeakness": "TristateEffectRegular"
+  },
+  "partyBuffs": {
+    "heroicPresence": true
+  },
+  "player": {
+    "name": "Player",
+    "race": "RaceOrc",
+    "class": "ClassShaman",
+    "equipment": {
+      "items": [
+        {"id":30190,"enchant":3003,"gems":[32409,32206],"ilvl":133,"quality":"ItemQualityEpic"},
+        {"id":32260,"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":30194,"enchant":2986,"gems":[32213,32210],"ilvl":133,"quality":"ItemQualityEpic"},
+        {"id":32323,"enchant":368,"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":30185,"enchant":2661,"gems":[32206,32206,32206],"ilvl":133,"quality":"ItemQualityEpic"},
+        {"id":32574,"enchant":1593,"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":30189,"enchant":2935,"ilvl":133,"quality":"ItemQualityEpic"},
+        {"id":30106,"gems":[32206,32206],"ilvl":138,"quality":"ItemQualityEpic"},
+        {"id":30900,"enchant":3012,"gems":[32210,32210,32210],"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":30880,"enchant":2658,"gems":[32213,32206],"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":29301,"ilvl":152,"quality":"ItemQualityEpic"},
+        {"id":29997,"ilvl":138,"quality":"ItemQualityEpic"},
+        {"id":28830,"ilvl":125,"quality":"ItemQualityEpic"},
+        {"id":31856,"ilvl":100,"quality":"ItemQualityEpic"},
+        {"id":28439,"enchant":2673,"ilvl":136,"quality":"ItemQualityEpic"},
+        {"id":28438,"enchant":2673,"ilvl":123,"quality":"ItemQualityEpic"},
+        {"id":28248,"ilvl":115,"quality":"ItemQualityRare"}
+      ]
+    },
+    "consumes": {
+      "battleElixir": "FelStrengthElixir",
+      "guardianElixir": "ElixirOfDraenicWisdom",
+      "food": "FoodRavagerDog",
+      "defaultPotion": "HastePotion",
+      "prepopPotion": "HastePotion",
+      "defaultConjured": "ConjuredFlameCap"
+    },
+    "bonusStats": {
+      "stats": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      "pseudoStats": [0,0,0,0,0,0]
+    },
+    "buffs": {
+      "blessingOfKings": true,
+      "blessingOfWisdom": "TristateEffectImproved",
+      "blessingOfMight": "TristateEffectImproved",
+      "judgementsOfTheWise": true
+    },
+    "enhancementShaman": {
+      "rotation": {
+        "rotationType": "Priority",
+        "customRotation": {
+          "spells": [
+            {
+              "spell": 3
+            },
+            {
+              "spell": 2
+            },
+            {
+              "spell": 4
+            },
+            {
+              "spell": 1
+            },
+            {
+              "spell": 5
+            },
+            {
+              "spell": 6
+            },
+            {
+              "spell": 13
+            },
+            {
+              "spell": 9
+            },
+            {
+              "spell": 10
+            },
+            {
+              "spell": 14
+            },
+            {
+              "spell": 7
+            }
+          ]
+        },
+        "lightningboltWeave": true,
+        "maelstromweaponMinStack": 3,
+        "autoWeaveDelay": 500,
+        "firenovaManaThreshold": 3000,
+        "shamanisticRageManaThreshold": 25,
+        "weaveFlameShock": true,
+        "primaryShock": "Earth",
+        "delayGcdWeave": 750
+      },
+      "options": {
+        "shield": "LightningShield",
+        "bloodlust": true,
+        "syncType": "Auto",
+        "imbueMh": "WindfuryWeapon",
+        "imbueOh": "FlametongueWeapon",
+        "totems": {
+          "earth": "StrengthOfEarthTotem",
+          "air": "WindfuryTotem",
+          "fire": "MagmaTotem",
+          "water": "ManaSpringTotem",
+          "useFireElemental": true
+        }
+      }
+    },
+    "talentsString": "05003-00505013105021333031131231051",
+    "glyphs": {
+      "major2": 41539,
+      "major3": 45771
+    },
+    "profession1": "Blacksmithing",
+    "profession2": "Alchemy",
+    "cooldowns": {
+    },
+    "rotation": {
+    },
+    "reactionTimeMs": 200,
+    "channelClipDelayMs": 200,
+    "healingModel": {
+    },
+    "database": {
+    }
+  },
+  "encounter": {
+    "duration": 180,
+    "durationVariation": 5,
+    "executeProportion20": 0.2,
+    "executeProportion25": 0.25,
+    "executeProportion35": 0.35,
+    "targets": [
+      {
+        "level": 73,
+        "mobType": "MobTypeGiant",
+        "stats": [0,0,0,0,0,0,0,0,0,0,0,805,0,0,0,0,0,0,0,0,6300,0,0,0,76,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        "minBaseDamage": 65000,
+        "swingSpeed": 1.5,
+        "parryHaste": true
+      }
+    ]
+  },
+  "epWeightsStats": {
+    "stats": [1.1,1.59,0,1.48,0,1.13,0,0,0.91,0.37,0,1,1.38,0.81,1.61,0.48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+    "pseudoStats": [5.21,2.21,0,0,0,0]
+  },
+  "epRatios": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+  ]
+}

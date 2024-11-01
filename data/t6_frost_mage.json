@@ -1,0 +1,143 @@
+{
+  "settings": {
+    "iterations": 3000,
+    "phase": 3,
+    "showDamageMetrics": true,
+    "language": "en",
+    "faction": "Alliance",
+    "filters": {
+      "oneHandedWeapons": true,
+      "twoHandedWeapons": true
+    }
+  },
+  "raidBuffs": {
+    "giftOfTheWild": "TristateEffectImproved",
+    "arcaneBrilliance": true,
+    "divineSpirit": true,
+    "demonicPact": 200,
+    "demonicPactSp": 100,
+    "swiftRetribution": true,
+    "moonkinAura": "TristateEffectImproved",
+    "wrathOfAirTotem": true,
+    "sanctifiedRetribution": true,
+    "manaSpringTotem": "TristateEffectImproved",
+    "bloodlust": true
+  },
+  "debuffs": {
+    "judgementOfWisdom": true,
+    "misery": true,
+    "curseOfElements": true,
+    "heartOfTheCrusader": true,
+    "shadowMastery": true
+  },
+  "partyBuffs": {
+    "heroicPresence": true
+  },
+  "player": {
+    "name": "Player",
+    "race": "RaceTroll",
+    "class": "ClassMage",
+    "equipment": {
+      "items": [
+        {"id":31056,"enchant":3002,"gems":[34220,32195],"ilvl":146,"quality":"ItemQualityEpic"},
+        {"id":32589,"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":31059,"enchant":2982,"gems":[32218,30600],"ilvl":146,"quality":"ItemQualityEpic"},
+        {"id":32524,"enchant":2621,"ilvl":151,"quality":"ItemQualityEpic"},
+        {"id":31057,"enchant":1144,"gems":[32195,32195,32195],"ilvl":146,"quality":"ItemQualityEpic"},
+        {"id":30870,"enchant":2650,"gems":[32195],"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":31055,"enchant":2937,"gems":[32195],"ilvl":146,"quality":"ItemQualityEpic"},
+        {"id":30888,"gems":[32218,30572],"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":30916,"enchant":2748,"gems":[32195,32195,32195],"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":32239,"enchant":2658,"gems":[32195,32195],"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":32527,"enchant":2928,"ilvl":151,"quality":"ItemQualityEpic"},
+        {"id":32527,"enchant":2928,"ilvl":151,"quality":"ItemQualityEpic"},
+        {"id":30720,"ilvl":128,"quality":"ItemQualityEpic"},
+        {"id":32483,"ilvl":151,"quality":"ItemQualityEpic"},
+        {"id":32374,"enchant":2671,"ilvl":151,"quality":"ItemQualityEpic"},
+        {},
+        {"id":29982,"ilvl":134,"quality":"ItemQualityEpic"}
+      ]
+    },
+    "consumes": {
+      "flask": "FlaskOfPureDeath",
+      "weaponMain": "ImbueBrilliantWizardOil",
+      "food": "FoodBlackenedBasilisk",
+      "defaultPotion": "SuperManaPotion",
+      "prepopPotion": "HastePotion",
+      "defaultConjured": "ConjuredDarkRune"
+    },
+    "bonusStats": {
+      "stats": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      "pseudoStats": [0,0,0,0,0,0]
+    },
+    "buffs": {
+      "blessingOfKings": true,
+      "blessingOfWisdom": "TristateEffectImproved",
+      "vampiricTouch": true
+    },
+    "mage": {
+      "rotation": {
+        "type": "Frost",
+        "blastWithoutMissileBarrageAboveManaPercent": 0.2,
+        "only3ArcaneBlastStacksBelowManaPercent": 0.9
+      },
+      "options": {
+        "armor": "MoltenArmor",
+        "focusMagicPercentUptime": 99,
+        "focusMagicTarget": {
+        },
+        "reactionTimeMs": 300
+      }
+    },
+    "talentsString": "--3533030313233103230152201351",
+    "glyphs": {
+      "major2": 50045,
+      "major3": 42742,
+      "minor1": 43364,
+      "minor2": 43360,
+      "minor3": 44920
+    },
+    "profession1": "Alchemy",
+    "profession2": "Enchanting",
+    "cooldowns": {
+    },
+    "rotation": {
+    },
+    "reactionTimeMs": 200,
+    "channelClipDelayMs": 200,
+    "distanceFromTarget": 25,
+    "healingModel": {
+    },
+    "database": {
+    }
+  },
+  "encounter": {
+    "duration": 180,
+    "durationVariation": 5,
+    "executeProportion20": 0.2,
+    "executeProportion25": 0.25,
+    "executeProportion35": 0.35,
+    "targets": [
+      {
+        "level": 73,
+        "mobType": "MobTypeGiant",
+        "stats": [0,0,0,0,0,0,0,0,0,0,0,805,0,0,0,0,0,0,0,0,6300,0,0,0,76,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        "minBaseDamage": 65000,
+        "swingSpeed": 1.5,
+        "parryHaste": true
+      }
+    ]
+  },
+  "epWeightsStats": {
+    "stats": [0,0,0,0.48,0.42,1,0.09,0.38,0.58,0.94,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+    "pseudoStats": [0,0,0,0,0,0]
+  },
+  "epRatios": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+  ]
+}

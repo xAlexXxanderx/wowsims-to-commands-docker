@@ -1,0 +1,144 @@
+{
+  "settings": {
+    "iterations": 3000,
+    "phase": 3,
+    "showDamageMetrics": true,
+    "language": "en",
+    "faction": "Alliance",
+    "filters": {
+      "oneHandedWeapons": true,
+      "twoHandedWeapons": true
+    }
+  },
+  "raidBuffs": {
+    "giftOfTheWild": "TristateEffectImproved",
+    "strengthOfEarthTotem": "TristateEffectImproved",
+    "trueshotAura": true,
+    "abominationsMight": true,
+    "leaderOfThePack": "TristateEffectImproved",
+    "icyTalons": true,
+    "windfuryTotem": "TristateEffectImproved",
+    "swiftRetribution": true,
+    "elementalOath": true,
+    "sanctifiedRetribution": true,
+    "bloodlust": true
+  },
+  "debuffs": {
+    "faerieFire": "TristateEffectImproved",
+    "earthAndMoon": true,
+    "heartOfTheCrusader": true,
+    "shadowMastery": true,
+    "bloodFrenzy": true,
+    "mangle": true,
+    "sunderArmor": true
+  },
+  "partyBuffs": {
+    "heroicPresence": true
+  },
+  "player": {
+    "name": "Player",
+    "race": "RaceTroll",
+    "class": "ClassRogue",
+    "equipment": {
+      "items": [
+        {"id":32235,"enchant":3003,"gems":[32409,30553],"ilvl":151,"quality":"ItemQualityEpic"},
+        {"id":32260,"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":30149,"enchant":2986,"gems":[32197,32197],"ilvl":133,"quality":"ItemQualityEpic"},
+        {"id":32323,"enchant":368,"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":30144,"enchant":2661,"gems":[32197,32197,32197],"ilvl":133,"quality":"ItemQualityEpic"},
+        {"id":32324,"enchant":1593,"gems":[32222],"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":30145,"enchant":2935,"ilvl":133,"quality":"ItemQualityEpic"},
+        {"id":30106,"gems":[32197,32213],"ilvl":138,"quality":"ItemQualityEpic"},
+        {"id":30148,"enchant":3012,"gems":[32213],"ilvl":133,"quality":"ItemQualityEpic"},
+        {"id":32366,"enchant":2658,"gems":[32197,32222],"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":29301,"ilvl":152,"quality":"ItemQualityEpic"},
+        {"id":29997,"ilvl":138,"quality":"ItemQualityEpic"},
+        {"id":28830,"ilvl":125,"quality":"ItemQualityEpic"},
+        {"id":30627,"ilvl":128,"quality":"ItemQualityEpic"},
+        {"id":32269,"enchant":2673,"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":30103,"enchant":2673,"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":29949,"ilvl":134,"quality":"ItemQualityEpic"}
+      ]
+    },
+    "consumes": {
+      "flask": "FlaskOfRelentlessAssault",
+      "food": "FoodRavagerDog",
+      "defaultPotion": "HastePotion",
+      "prepopPotion": "HastePotion",
+      "defaultConjured": "ConjuredRogueThistleTea"
+    },
+    "bonusStats": {
+      "stats": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      "pseudoStats": [0,0,0,0,0,0]
+    },
+    "buffs": {
+      "blessingOfKings": true,
+      "blessingOfMight": "TristateEffectImproved"
+    },
+    "rogue": {
+      "rotation": {
+        "minimumComboPointsExposeArmor": 2,
+        "combatFinisherPriority": "CombatPriorityUnknown",
+        "subtletyFinisherPriority": "SubtletyPriorityUnknown",
+        "minimumComboPointsPrimaryFinisher": 4,
+        "minimumComboPointsSecondaryFinisher": 4,
+        "MultiTargetSliceFrequency": "FrequencyUnknown",
+        "openWithGarrote": true
+      },
+      "options": {
+        "mhImbue": "DeadlyPoison",
+        "ohImbue": "InstantPoison",
+        "startingOverkillDuration": 20,
+        "honorOfThievesCritRate": -1,
+        "assumeBleedActive": true,
+        "vanishBreakTime": 0.10000000149011612
+      }
+    },
+    "talentsString": "005303005352100520103331051-003-502",
+    "glyphs": {
+      "major1": 45768,
+      "major3": 45761
+    },
+    "profession1": "Alchemy",
+    "profession2": "Leatherworking",
+    "cooldowns": {
+    },
+    "rotation": {
+    },
+    "reactionTimeMs": 200,
+    "channelClipDelayMs": 200,
+    "healingModel": {
+    },
+    "database": {
+    }
+  },
+  "encounter": {
+    "duration": 180,
+    "durationVariation": 5,
+    "executeProportion20": 0.2,
+    "executeProportion25": 0.25,
+    "executeProportion35": 0.35,
+    "targets": [
+      {
+        "level": 73,
+        "mobType": "MobTypeDemon",
+        "stats": [0,0,0,0,0,0,0,0,0,0,0,805,0,0,0,0,0,0,0,0,6300,0,0,0,76,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        "minBaseDamage": 65000,
+        "swingSpeed": 1.5,
+        "parryHaste": true
+      }
+    ]
+  },
+  "epWeightsStats": {
+    "stats": [1.14,1.86,0,0,0,0,0,0.08,0.28,0,0,1,1.39,1.32,1.48,0.84,0.98,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+    "pseudoStats": [2.94,2.45,0,0,0,0]
+  },
+  "epRatios": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+  ]
+}

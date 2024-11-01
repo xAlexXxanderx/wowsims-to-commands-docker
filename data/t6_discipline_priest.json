@@ -1,0 +1,156 @@
+{
+  "settings": {
+    "iterations": 3000,
+    "phase": 3,
+    "showHealingMetrics": true,
+    "language": "en",
+    "faction": "Alliance",
+    "filters": {
+      "oneHandedWeapons": true,
+      "twoHandedWeapons": true
+    }
+  },
+  "raidBuffs": {
+    "giftOfTheWild": "TristateEffectImproved",
+    "powerWordFortitude": "TristateEffectImproved",
+    "strengthOfEarthTotem": "TristateEffectImproved",
+    "arcaneBrilliance": true,
+    "divineSpirit": true,
+    "trueshotAura": true,
+    "leaderOfThePack": "TristateEffectImproved",
+    "icyTalons": true,
+    "totemOfWrath": true,
+    "moonkinAura": "TristateEffectImproved",
+    "wrathOfAirTotem": true,
+    "sanctifiedRetribution": true,
+    "bloodlust": true
+  },
+  "debuffs": {
+    "totemOfWrath": true
+  },
+  "partyBuffs": {
+  },
+  "player": {
+    "name": "Player",
+    "race": "RaceBloodElf",
+    "class": "ClassPriest",
+    "equipment": {
+      "items": [
+        {"id":31064,"gems":[25901,32836],"ilvl":146,"quality":"ItemQualityEpic"},
+        {"id":32370,"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":31069,"gems":[32836,32836],"ilvl":146,"quality":"ItemQualityEpic"},
+        {"id":29989,"ilvl":138,"quality":"ItemQualityEpic"},
+        {"id":31066,"enchant":2661,"gems":[32204,32204,32204],"ilvl":146,"quality":"ItemQualityEpic"},
+        {"id":30871,"enchant":369,"gems":[32204],"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":31060,"enchant":2937,"gems":[32204],"ilvl":146,"quality":"ItemQualityEpic"},
+        {"id":32519,"gems":[32219,32836],"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":30912,"enchant":2748,"gems":[32204,32204,32204],"ilvl":151,"quality":"ItemQualityEpic"},
+        {"id":32609,"enchant":2940,"gems":[32219,32836],"ilvl":141,"quality":"ItemQualityEpic"},
+        {"id":34363,"ilvl":159,"quality":"ItemQualityEpic"},
+        {"id":29309,"ilvl":152,"quality":"ItemQualityEpic"},
+        {"id":28190,"ilvl":115,"quality":"ItemQualityRare"},
+        {"id":32496,"ilvl":151,"quality":"ItemQualityEpic"},
+        {"id":30908,"enchant":2669,"ilvl":151,"quality":"ItemQualityEpic"},
+        {},
+        {"id":32363,"ilvl":141,"quality":"ItemQualityEpic"}
+      ]
+    },
+    "consumes": {
+      "flask": "FlaskOfTheFrostWyrm",
+      "food": "FoodFishFeast",
+      "defaultPotion": "RunicManaInjector",
+      "prepopPotion": "PotionOfWildMagic"
+    },
+    "bonusStats": {
+      "stats": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      "pseudoStats": [0,0,0,0,0,0]
+    },
+    "buffs": {
+      "blessingOfKings": true,
+      "blessingOfWisdom": "TristateEffectImproved",
+      "vampiricTouch": true
+    },
+    "healingPriest": {
+      "rotation": {
+        "type": "Cycle",
+        "customRotation": {
+          "spells": [
+            {
+              "spell": 4,
+              "castsPerMinute": 18
+            },
+            {
+              "spell": 8,
+              "castsPerMinute": 4
+            },
+            {
+              "spell": 7,
+              "castsPerMinute": 2
+            },
+            {
+              "spell": 1,
+              "castsPerMinute": 1
+            }
+          ]
+        }
+      },
+      "options": {
+        "useInnerFire": true,
+        "useShadowfiend": true,
+        "powerInfusionTarget": {
+        },
+        "rapturesPerMinute": 5
+      }
+    },
+    "talentsString": "3500203130300512301323231251-034",
+    "glyphs": {
+      "major1": 42408,
+      "major3": 45756,
+      "minor1": 43371,
+      "minor2": 43374,
+      "minor3": 43342
+    },
+    "profession1": "Engineering",
+    "profession2": "Jewelcrafting",
+    "cooldowns": {
+    },
+    "rotation": {
+    },
+    "reactionTimeMs": 200,
+    "channelClipDelayMs": 200,
+    "healingModel": {
+    },
+    "database": {
+    }
+  },
+  "encounter": {
+    "duration": 180,
+    "durationVariation": 5,
+    "executeProportion20": 0.2,
+    "executeProportion25": 0.25,
+    "executeProportion35": 0.35,
+    "targets": [
+      {
+        "level": 73,
+        "mobType": "MobTypeGiant",
+        "stats": [0,0,0,0,0,0,0,0,0,0,0,805,0,0,0,0,0,0,0,0,6300,0,0,0,76,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        "minBaseDamage": 65000,
+        "swingSpeed": 1.5,
+        "parryHaste": true
+      }
+    ]
+  },
+  "targetDummies": 9,
+  "epWeightsStats": {
+    "stats": [0,0,0,2.73,1.63,1,2.05,0,0.75,0.28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+    "pseudoStats": [0,0,0,0,0,0]
+  },
+  "epRatios": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+  ]
+}
