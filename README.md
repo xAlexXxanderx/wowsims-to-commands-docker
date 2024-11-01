@@ -3,7 +3,8 @@
 
 Uses data from WOTLK 335a Spell.dbc and AzerothCore `acore_world.item_template`.
 
-![ingame](images/example_output_after_use_macro_additems.jpg)
+
+![wowsims-export](https://github.com/user-attachments/assets/3ac1387e-4a13-428a-8913-ea9f79fe1db0)
 
 ## How to use
 
@@ -19,7 +20,7 @@ export `.json` data from a WoWSims character sim
 #### Option1: Use web `web`
   no dependencies needed
 
-https://wowsims.github.io/wowsims-to-commands
+https://sogladev.github.io/wowsims-to-commands/
 
 #### Option2: Use `notebook`
 requires dependencies:
@@ -33,7 +34,7 @@ paste commands
 
 optional (`superdupermacro`) addon to paste in 1 macro https://felbite.com/addon/4135-superdupermacro/
 
-
+![ingame](images/example_output_after_use_macro_additems.jpg)
 
 ## Development
 
