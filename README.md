@@ -22,12 +22,15 @@ export `.json` data from a WoWSims character sim
 
 https://sogladev.github.io/wowsims-to-commands/
 
-#### Option2: Use `notebook`
+#### Option2: Use `Docker Compose`
 requires dependencies:
-1. Spell.dbc exported to SQL with stoneharry spell editor
-2. python 3.11+
-3. jupyter notebook, pandas, sqlalchemy
+1. Spell.dbc exported to SQL DB with stoneharry spell editor
+2. Azerothcore DB
 
+Replace Databases connection settings to yours, after than run in project folder:
+```
+docker compose up -d
+```
 
 ### ingame
 paste commands
@@ -35,15 +38,3 @@ paste commands
 optional (`superdupermacro`) addon to paste in 1 macro https://felbite.com/addon/4135-superdupermacro/
 
 ![ingame](images/example_output_after_use_macro_additems.jpg)
-
-## Development
-
-
-optional (`superdupermacro`) addon to paste in 1 macro https://felbite.com/addon/4135-superdupermacro/
-
-
-`web`
-```
-npm install -g http-server
-http-server -c-1 
-```
