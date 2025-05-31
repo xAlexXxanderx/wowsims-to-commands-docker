@@ -31,6 +31,10 @@ Replace Databases connection settings to yours, after than run in project folder
 ```
 docker compose up -d
 ```
+If this is your first deployment, also run this command:
+```
+docker compose exec app bash init.sh
+```
 
 ### ingame
 paste commands
